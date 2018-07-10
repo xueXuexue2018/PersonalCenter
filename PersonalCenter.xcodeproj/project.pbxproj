@@ -15,6 +15,17 @@
 		5A35F4D520EB7FE5007A815D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F4D420EB7FE5007A815D /* main.m */; };
 		5A35F4DF20EB7FE5007A815D /* PersonalCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F4DE20EB7FE5007A815D /* PersonalCenterTests.m */; };
 		5A35F4EA20EB7FE5007A815D /* PersonalCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F4E920EB7FE5007A815D /* PersonalCenterUITests.m */; };
+		5A35F4F820EB8066007A815D /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A35F4F720EB8066007A815D /* bg.jpg */; };
+		5A35F4FB20EB8078007A815D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F4FA20EB8078007A815D /* BaseViewController.m */; };
+		5A35F4FE20EB8087007A815D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F4FD20EB8087007A815D /* FirstViewController.m */; };
+		5A35F50120EB8097007A815D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F50020EB8097007A815D /* SecondViewController.m */; };
+		5A35F50420EB80A5007A815D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F50320EB80A5007A815D /* ThirdViewController.m */; };
+		5A35F50720EB81AE007A815D /* PersonalCenterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F50620EB81AE007A815D /* PersonalCenterTable.m */; };
+		5A35F50A20EB81CC007A815D /* CenterSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F50920EB81CC007A815D /* CenterSegmentView.m */; };
+		5A35F50D20EB822F007A815D /* CenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F50C20EB822F007A815D /* CenterHeaderView.m */; };
+		5A35F50F20EB828F007A815D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5A35F50E20EB828F007A815D /* Podfile */; };
+		5A35F51220EB83ED007A815D /* CenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A35F51120EB83ED007A815D /* CenterCell.m */; };
+		ABF42BD74B68FC38E2FFE995 /* libPods-PersonalCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6F6C5972C48709A15FEBEC /* libPods-PersonalCenter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B6F6C5972C48709A15FEBEC /* libPods-PersonalCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		357DA43733281E0DD4336BFF /* Pods-PersonalCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalCenter/Pods-PersonalCenter.release.xcconfig"; sourceTree = "<group>"; };
+		3A0D0E0428DF87BB5024F876 /* Pods-PersonalCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalCenter/Pods-PersonalCenter.debug.xcconfig"; sourceTree = "<group>"; };
 		5A35F4C220EB7FE2007A815D /* PersonalCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A35F4C520EB7FE2007A815D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A35F4C620EB7FE2007A815D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,24 @@
 		5A35F4E520EB7FE5007A815D /* PersonalCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A35F4E920EB7FE5007A815D /* PersonalCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterUITests.m; sourceTree = "<group>"; };
 		5A35F4EB20EB7FE5007A815D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A35F4F720EB8066007A815D /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		5A35F4F920EB8078007A815D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5A35F4FA20EB8078007A815D /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5A35F4FC20EB8087007A815D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5A35F4FD20EB8087007A815D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5A35F4FF20EB8097007A815D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5A35F50020EB8097007A815D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5A35F50220EB80A5007A815D /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5A35F50320EB80A5007A815D /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5A35F50520EB81AE007A815D /* PersonalCenterTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterTable.h; sourceTree = "<group>"; };
+		5A35F50620EB81AE007A815D /* PersonalCenterTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterTable.m; sourceTree = "<group>"; };
+		5A35F50820EB81CC007A815D /* CenterSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterSegmentView.h; sourceTree = "<group>"; };
+		5A35F50920EB81CC007A815D /* CenterSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterSegmentView.m; sourceTree = "<group>"; };
+		5A35F50B20EB822F007A815D /* CenterHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterHeaderView.h; sourceTree = "<group>"; };
+		5A35F50C20EB822F007A815D /* CenterHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterHeaderView.m; sourceTree = "<group>"; };
+		5A35F50E20EB828F007A815D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5A35F51020EB83ED007A815D /* CenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterCell.h; sourceTree = "<group>"; };
+		5A35F51120EB83ED007A815D /* CenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF42BD74B68FC38E2FFE995 /* libPods-PersonalCenter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +111,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C48F01932ADEEC2B72F4431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A0D0E0428DF87BB5024F876 /* Pods-PersonalCenter.debug.xcconfig */,
+				357DA43733281E0DD4336BFF /* Pods-PersonalCenter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5A35F4B920EB7FE2007A815D = {
 			isa = PBXGroup;
 			children = (
+				5A35F50E20EB828F007A815D /* Podfile */,
 				5A35F4C420EB7FE2007A815D /* PersonalCenter */,
 				5A35F4DD20EB7FE5007A815D /* PersonalCenterTests */,
 				5A35F4E820EB7FE5007A815D /* PersonalCenterUITests */,
 				5A35F4C320EB7FE2007A815D /* Products */,
+				0C48F01932ADEEC2B72F4431 /* Pods */,
+				D06928D43C6B1BABC6E9B7E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +150,24 @@
 				5A35F4C620EB7FE2007A815D /* AppDelegate.m */,
 				5A35F4C820EB7FE2007A815D /* ViewController.h */,
 				5A35F4C920EB7FE2007A815D /* ViewController.m */,
+				5A35F4F920EB8078007A815D /* BaseViewController.h */,
+				5A35F4FA20EB8078007A815D /* BaseViewController.m */,
+				5A35F4FC20EB8087007A815D /* FirstViewController.h */,
+				5A35F4FD20EB8087007A815D /* FirstViewController.m */,
+				5A35F4FF20EB8097007A815D /* SecondViewController.h */,
+				5A35F50020EB8097007A815D /* SecondViewController.m */,
+				5A35F50220EB80A5007A815D /* ThirdViewController.h */,
+				5A35F50320EB80A5007A815D /* ThirdViewController.m */,
+				5A35F50520EB81AE007A815D /* PersonalCenterTable.h */,
+				5A35F50620EB81AE007A815D /* PersonalCenterTable.m */,
+				5A35F50820EB81CC007A815D /* CenterSegmentView.h */,
+				5A35F50920EB81CC007A815D /* CenterSegmentView.m */,
+				5A35F50B20EB822F007A815D /* CenterHeaderView.h */,
+				5A35F50C20EB822F007A815D /* CenterHeaderView.m */,
+				5A35F51020EB83ED007A815D /* CenterCell.h */,
+				5A35F51120EB83ED007A815D /* CenterCell.m */,
 				5A35F4CB20EB7FE2007A815D /* Main.storyboard */,
+				5A35F4F720EB8066007A815D /* bg.jpg */,
 				5A35F4CE20EB7FE5007A815D /* Assets.xcassets */,
 				5A35F4D020EB7FE5007A815D /* LaunchScreen.storyboard */,
 				5A35F4D320EB7FE5007A815D /* Info.plist */,
@@ -132,6 +194,14 @@
 			path = PersonalCenterUITests;
 			sourceTree = "<group>";
 		};
+		D06928D43C6B1BABC6E9B7E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F6C5972C48709A15FEBEC /* libPods-PersonalCenter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A35F4EE20EB7FE5007A815D /* Build configuration list for PBXNativeTarget "PersonalCenter" */;
 			buildPhases = (
+				8B2733AFA91690E372E2410D /* [CP] Check Pods Manifest.lock */,
 				5A35F4BE20EB7FE2007A815D /* Sources */,
 				5A35F4BF20EB7FE2007A815D /* Frameworks */,
 				5A35F4C020EB7FE2007A815D /* Resources */,
@@ -235,8 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A35F50F20EB828F007A815D /* Podfile in Resources */,
 				5A35F4D220EB7FE5007A815D /* LaunchScreen.storyboard in Resources */,
 				5A35F4CF20EB7FE5007A815D /* Assets.xcassets in Resources */,
+				5A35F4F820EB8066007A815D /* bg.jpg in Resources */,
 				5A35F4CD20EB7FE2007A815D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +330,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B2733AFA91690E372E2410D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonalCenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A35F4BE20EB7FE2007A815D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A35F51220EB83ED007A815D /* CenterCell.m in Sources */,
+				5A35F50120EB8097007A815D /* SecondViewController.m in Sources */,
 				5A35F4CA20EB7FE2007A815D /* ViewController.m in Sources */,
+				5A35F4FB20EB8078007A815D /* BaseViewController.m in Sources */,
+				5A35F4FE20EB8087007A815D /* FirstViewController.m in Sources */,
+				5A35F50A20EB81CC007A815D /* CenterSegmentView.m in Sources */,
 				5A35F4D520EB7FE5007A815D /* main.m in Sources */,
+				5A35F50720EB81AE007A815D /* PersonalCenterTable.m in Sources */,
 				5A35F4C720EB7FE2007A815D /* AppDelegate.m in Sources */,
+				5A35F50D20EB822F007A815D /* CenterHeaderView.m in Sources */,
+				5A35F50420EB80A5007A815D /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +533,7 @@
 		};
 		5A35F4EF20EB7FE5007A815D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0D0E0428DF87BB5024F876 /* Pods-PersonalCenter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +550,7 @@
 		};
 		5A35F4F020EB7FE5007A815D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357DA43733281E0DD4336BFF /* Pods-PersonalCenter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
